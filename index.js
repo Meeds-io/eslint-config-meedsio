@@ -22,11 +22,6 @@ module.exports = {
     'eslint:recommended',
   ],
   rules: {
-    'max-len': ['error', {
-      code: 80,
-      tabWidth: 2,
-      ignoreUrls: true
-    }],
     'indent': [
       'error', 2
     ],
