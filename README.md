@@ -21,6 +21,11 @@ To use it, you can simply define it in ESLint configuration of your project:
 }
 ```
 
-## License
+## How to contribute
 
-Apache-3
+To add/modify/delete rules, please add a PR with the modifications.
+To test rules before requesting review, you can execute the following command:
+
+```
+npm run test
+```
