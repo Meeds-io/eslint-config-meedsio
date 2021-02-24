@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-meedsio",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "ESLint Contfiguration for Meeds.io based applications",
   "author": "eXo",
   "license": "LGPL-3.0-or-later",
