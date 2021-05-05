@@ -56,6 +56,7 @@ module.exports = {
     'no-process-env': ['error'],
     'no-process-exit': ['error'],
     'no-proto': ['error'],
+    'no-restricted-imports': ['warn', 'axios'],
     'no-self-compare': ['error'],
     'no-sequences': ['error'],
     'no-shadow-restricted-names': ['error'],
