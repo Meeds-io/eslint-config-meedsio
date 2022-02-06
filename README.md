@@ -2,6 +2,8 @@
 
 ESLint [shareable config](http://eslint.org/docs/developer-guide/shareable-configs.html) for Meeds-io based projects.
 
+[![Node.js Package](https://github.com/Meeds-io/eslint-config-meedsio/actions/workflows/npm-publish.yml/badge.svg)](https://github.com/Meeds-io/eslint-config-meedsio/actions/workflows/npm-publish.yml)
+
 ## Installation
 
 ```
