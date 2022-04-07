@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-meedsio",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "ESLint Contfiguration for Meeds.io based applications",
   "author": "eXo",
   "license": "LGPL-3.0-or-later",
@@ -21,8 +21,8 @@
     "vue"
   ],
   "devDependencies": {
-    "eslint": "^5.10.0",
-    "eslint-plugin-vue": "^5.0.0"
+    "eslint": "^8.12.0",
+    "eslint-plugin-vue": "^8.6.0"
   },
   "bugs": {
     "url": "https://github.com/meeds-io/eslint-config-meedsio/issues"

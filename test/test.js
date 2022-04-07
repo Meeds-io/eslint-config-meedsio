@@ -7,9 +7,12 @@ const eslintCli = new (CLIEngine || ESLint)({
   baseConfig: eslintrc
 });
 
-const eslintReport = eslintCli.executeOnFiles([
+eslintCli.lintFiles([
   'index.js',
   'test/test.js',
-]);
-assert.equal(0, eslintReport.errorCount);
-assert.equal(0, eslintReport.warningCount);
+]).then(reportList => {
+  reportList.forEach(report => {
+    assert.equal(report.warningCount, 0);
+    assert.equal(report.errorCount, 0);
+  });
+});
