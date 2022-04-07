@@ -1,7 +1,6 @@
 module.exports = {
   env: {
     'node': true,
-    'es6': true,
     'browser': true,
   },
   globals: {
@@ -81,10 +80,11 @@ module.exports = {
     'valid-jsdoc': ['error'],
     'yoda': ['error', 'never', { 'exceptRange': true }],
     'vue/max-attributes-per-line': ['warn', {
-      'singleline': 2,
+      'singleline':  {
+        'max': 2
+      },
       'multiline': {
-        'max': 1,
-        'allowFirstLine': false
+        'max': 1
       }
     }],
     'vue/singleline-html-element-content-newline': ['off'],
@@ -105,6 +105,6 @@ module.exports = {
   },
   'parserOptions': {
     'sourceType': 'module',
-    'ecmaVersion': 2018
+    'ecmaVersion': 2022
   },
 };
