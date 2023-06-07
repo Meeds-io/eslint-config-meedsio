@@ -12,7 +12,7 @@ $ npm install --save-dev eslint eslint-config-meedsio
 
 ## Usage
 
-`eslint-config-meedsio` combines rules defined by `plugin:vue/strongly-recommended`, `eslint:recommended` with some additional customized rules.
+`eslint-config-meedsio` combines rules defined by `plugin:vue/strongly-recommended`, `eslint:recommended`, `plugin:vuejs-accessibility/recommended` with some additional customized rules.
 
 To use it, you can simply define it in ESLint configuration of your project:
 ```js
